@@ -1,0 +1,27 @@
+h2 {
+    text-align: center;
+    font-family: tahoma;
+    color: purple;
+  }
+  
+  .rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+  }
+  
+  img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+  }
