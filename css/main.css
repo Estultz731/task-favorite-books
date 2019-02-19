@@ -1,3 +1,12 @@
+.navbar {
+    background-color: #47060a;
+    height: 50px;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 5px;
+}
 h2 {
     text-align: center;
     font-family: tahoma;
